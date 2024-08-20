@@ -3,7 +3,6 @@ pipeline {
     Tools {
        // Install the Maven version configured as "M3" and add it to the path.
         maven "MAVEN-3.9.8"
-
     }
     stages {
         stage('Scm') {
